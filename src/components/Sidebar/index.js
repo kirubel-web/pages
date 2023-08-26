@@ -137,7 +137,7 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.telegram.com/kiru_bel8"
+            href="https://www.t.me/kiru_bel8"
           >
             <FontAwesomeIcon icon={faTelegram} color="#4d4d42" />
           </a>
