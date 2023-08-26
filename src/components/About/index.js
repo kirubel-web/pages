@@ -30,14 +30,17 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.</p>
-                    <p>I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.</p>
-                    <p>If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!</p>
+                    <p>I am a passionate computer engineer with a Good background in web
+          development. I have always been fascinated by technology and its
+          ability to transform the way we live and work.</p>
+                    <p>Apart from web development, I also have a solid foundation in computer
+          engineering principles. I have a deep understanding of algorithms,
+          data structures, and software engineering practices, which allows me
+          to develop efficient and scalable web applications.</p>
+                    <p>I am always eager to learn and stay updated with the latest
+          technologies and trends in web development.In addition to my technical skills, I am a good team player. I believe in
+          effective communication, collaboration, and delivering high-quality
+          solutions that meet the client's requirements.</p>
                 </div>
                 <div className="stage-cube-cont">
                 <div className="cubespinner">

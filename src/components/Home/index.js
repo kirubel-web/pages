@@ -10,19 +10,23 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
   const nameArray = ["i", "r", "b", "e", "l"];
   const jobArray = [
-    "w",
-    "e",
-    "b",
-    " ",
-    "d",
-    "e",
-    "v",
-    "e",
-    "l",
+    "C",
     "o",
+    "m",
     "p",
+    "u",
+    "t",
     "e",
     "r",
+    " ",
+    "E",
+    "n",
+    "g",
+    "i",
+    "n",
+    "e",
+    "e",
+    "r"
   ]
   useEffect(() => {
     setTimeout(() => {
@@ -54,7 +58,7 @@ const Home = () => {
             idx={20}
           />
         </h1>
-        <h2>FullStack Developer / Backend Expert</h2>
+        <h2>FullStack Developer / Currently Backend Specialisation</h2>
         <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>
