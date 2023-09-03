@@ -11,6 +11,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "axios": "^1.5.0",
     "gsap-trial": "^3.12.2",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
@@ -26,7 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "proxy": "http://192.168.1.11:8000"
   },
   "eslintConfig": {
     "extends": [
@@ -46,4 +48,5 @@
       "last 1 safari version"
     ]
   }
+  
 }

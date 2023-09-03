@@ -18,13 +18,9 @@ const Sidebar = () => {
         <img src={LogoS} alt="logo" /> 
       </Link> */}
       <nav className={showNav ? 'mobile-show' : ''}>
-        <ul class="ul-jus">
-          <li>
         <NavLink exact="true" activeclassName="active" to="/" onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
-        </li>
-        <li>
         <NavLink
           exact="true"
           activeclassName="active"
@@ -34,8 +30,6 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
-        </li>
-        <li>
         <NavLink
           exact="true"
           activeclassName="active"
@@ -44,12 +38,10 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
-        </li>
-        </ul>
-        <ul>
-        
+      </nav>
+      <ul>
         <li>
-          <a target="_blank" rel="noreferrer" href="https://linkedin.com/k" className="Linked-link">
+          <a target="_blank" rel="noreferrer" href="https://linkedin.com/k">
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d42" />
           </a>
         </li>
@@ -58,7 +50,6 @@ const Sidebar = () => {
             target="_blank"
             rel="noreferrer"
             href="https://www.telegram.com/kiru_bel8"
-            className="telegram-link"
           >
             <FontAwesomeIcon icon={faTelegram} color="#4d4d42" />
           </a>
@@ -68,18 +59,12 @@ const Sidebar = () => {
             target="_blank"
             rel="noreferrer"
             href="https://www.github.com/kirubel-web"
-            className="github-link"
           >
             <FontAwesomeIcon icon={faGithub} color="#4d4d42" />
           </a>
         </li>
-        
-        </ul>
-      </nav>
-      
-      
-      </div>
-    
+      </ul>
+    </div>
   );
 };
 export default Sidebar;
