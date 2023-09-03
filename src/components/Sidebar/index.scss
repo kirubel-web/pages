@@ -110,6 +110,11 @@ nav {
             content: 'GITHUB';
         }
     }
+    a.slack-link {
+        &:after {
+            content: 'SLACK';
+        }
+    }
 
     a.active {
         svg {
