@@ -36,24 +36,26 @@
     input[type='email'] {
       width: 100%;
       border: 0;
-      background: #c8b4df;
+      background: #ffffff;
       height: 50px;
       font-size: 16px;
       color: #000000;
       padding: 0 20px;
       box-sizing: border-box;
+      border-radius: 25px;
     }
   
     textarea {
       width: 100%;
       border: 0;
-      background: #c8b4df;
+      background: #dedae2;
       height: 50px;
       font-size: 16px;
       color: #000000;
       padding: 20px;
       box-sizing: border-box;
       min-height: 150px;
+      border-radius: 10px;
     }
   
     .flat-button {
