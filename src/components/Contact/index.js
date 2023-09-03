@@ -16,7 +16,7 @@ const Contact = () => {
 
     const fetchCsrfToken = async () => {
       try {
-        const response = await axios.get('http://kirubel.pythonanywhere.com/get-csrf-token/');
+        const response = await axios.get('https://kirubel.pythonanywhere.com/get-csrf-token/');
         setCsrfToken(response.data.csrfToken);
       } catch (error) {
         console.error('Failed to fetch CSRF token:', error);
@@ -29,7 +29,7 @@ const Contact = () => {
    const sendEmail = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://kirubel.pythonanywhere.com/contact/', new FormData(form.current), {
+      await axios.post('https://kirubel.pythonanywhere.com/contact/', new FormData(form.current), {
         headers: {
           'X-CSRFToken': csrfToken,
         },
