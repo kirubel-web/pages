@@ -16,7 +16,7 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
      {/* <Link className="logo" to="/" onClick={() => setShowNav(false)}>
-        <img src={LogoS} alt="logo" /> 
+        <img src={LogoS} alt="logo" />
       </Link> */}
       <nav className={showNav ? 'mobile-show' : ''}>
         <ul class="ul-jus">
@@ -48,7 +48,7 @@ const Sidebar = () => {
         </li>
         </ul>
         <ul>
-        
+
         <li>
           <a target="_blank" rel="noreferrer" href="https://linkedin.com" className="Linked-link">
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d42" />
@@ -58,7 +58,7 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.telegram.com/kiru_bel8"
+            href="https://t.me/kiru_bel8"
             className="telegram-link"
           >
             <FontAwesomeIcon icon={faTelegram} color="#4d4d42" />
@@ -84,13 +84,13 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faSlack} color="#4d4d42" />
           </a>
         </li>
-        
+
         </ul>
       </nav>
-      
-      
+
+
       </div>
-    
+
   );
 };
 export default Sidebar;

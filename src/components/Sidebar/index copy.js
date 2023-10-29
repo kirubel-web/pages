@@ -15,7 +15,7 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
      {/* <Link className="logo" to="/" onClick={() => setShowNav(false)}>
-        <img src={LogoS} alt="logo" /> 
+        <img src={LogoS} alt="logo" />
       </Link> */}
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink exact="true" activeclassName="active" to="/" onClick={() => setShowNav(false)}>
@@ -49,7 +49,7 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.telegram.com/kiru_bel8"
+            href="https://t.me/kiru_bel8"
           >
             <FontAwesomeIcon icon={faTelegram} color="#4d4d42" />
           </a>
