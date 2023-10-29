@@ -7,7 +7,7 @@ import {
   faLinkedin,
   faGithub,
   faTelegram,
-  faSlack,
+  faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
 
@@ -81,7 +81,7 @@ const Sidebar = () => {
             href="https://join.slack.com/t/kirubelhq/shared_invite/zt-22pojaxsx-asp8WownEnRyfTM9~JXKAQ"
             className="slack-link"
           >
-            <FontAwesomeIcon icon={faSlack} color="#4d4d42" />
+            <FontAwesomeIcon icon={faDiscord} color="#4d4d42" />
           </a>
         </li>
 
