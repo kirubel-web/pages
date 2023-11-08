@@ -87,7 +87,9 @@ const Sidebar = () => {
 
         </ul>
       </nav>
-
+      <div>
+        <hr />
+      </div>
 
       </div>
 
