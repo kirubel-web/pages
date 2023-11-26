@@ -50,7 +50,7 @@ const Sidebar = () => {
         <ul>
 
         <li>
-          <a target="_blank" rel="noreferrer" href="https://linkedin.com" className="Linked-link">
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kirubel-alemu-82989b227" className="Linked-link">
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d42" />
           </a>
         </li>
@@ -87,7 +87,7 @@ const Sidebar = () => {
 
         </ul>
       </nav>
-      
+
 
       </div>
 
