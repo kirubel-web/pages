@@ -33,7 +33,7 @@ const Home = () => {
       setLetterClass("text-animate-hover");
     }, 4000);
   }, []);
-  
+
 
   return (
 <>
@@ -65,7 +65,7 @@ const Home = () => {
       </div>
       <Profile />
     </div>
-    <Loader type="pacman" />
+    <Loader type="ball-scale-multiple" />
     </>
   );
 };

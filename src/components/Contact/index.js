@@ -37,12 +37,12 @@ const Contact = () => {
         credentials: 'include'
       });
       alert('Message successfully sent!');
-      window.location.reload(false); 
+      window.location.reload(false);
     } catch (error) {
       console.error('Failed to send the message:', error);
       alert('Failed to send the message, please try again');
     }
-  }; 
+  };
 
   return (
     <>
@@ -80,7 +80,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <Loader type="pacman" />
+      <Loader type="ball-scale-multiple" />
     </>
   );
 };
